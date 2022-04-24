@@ -1,7 +1,7 @@
 local M = {}
 
 function M.get_colors()
-	return require("catppuccin.core.color_palette")
+	return require("lychee.core.color_palette")
 end
 
 return M

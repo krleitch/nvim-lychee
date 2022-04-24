@@ -1,7 +1,7 @@
-local cp = require("catppuccin.core.color_palette")
-local catppuccin = {}
+local cp = require("lychee.core.color_palette")
+local lychee = {}
 
-catppuccin.normal = {
+lychee.normal = {
 	left = { { cp.black1, cp.blue }, { cp.blue, cp.black2 } },
 	middle = { { cp.blue, cp.black4 } },
 	right = { { cp.gray0, cp.black2 }, { cp.blue, cp.black3 } },
@@ -9,29 +9,29 @@ catppuccin.normal = {
 	warning = { { cp.black1, cp.yellow } },
 }
 
-catppuccin.insert = {
+lychee.insert = {
 	left = { { cp.black1, cp.teal }, { cp.blue, cp.black2 } },
 }
 
-catppuccin.visual = {
+lychee.visual = {
 	left = { { cp.black1, cp.mauve }, { cp.blue, cp.black2 } },
 }
 
-catppuccin.replace = {
+lychee.replace = {
 	left = { { cp.black1, cp.red }, { cp.blue, cp.black2 } },
 }
 
-catppuccin.inactive = {
+lychee.inactive = {
 	left = { { cp.blue, cp.black2 }, { cp.gray0, cp.black2 } },
 	middle = { { cp.black4, cp.black2 } },
 	right = { { cp.black4, cp.black2 }, { cp.gray0, cp.black2 } },
 }
 
-catppuccin.tabline = {
+lychee.tabline = {
 	left = { { cp.gray0, cp.black2 }, { cp.gray0, cp.black2 } },
 	middle = { { cp.black4, cp.black2 } },
 	right = { { cp.black4, cp.black2 }, { cp.gray0, cp.black2 } },
 	tabsel = { { cp.blue, cp.black4 }, { cp.gray0, cp.black2 } },
 }
 
-return catppuccin
+return lychee

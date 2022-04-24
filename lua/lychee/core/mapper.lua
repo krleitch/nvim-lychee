@@ -1,5 +1,5 @@
-local colors_util = require("catppuccin.utils.colors")
-local color_palette = require("catppuccin.core.color_palette")
+local colors_util = require("lychee.utils.colors")
+local color_palette = require("lychee.core.color_palette")
 
 local M = {}
 
@@ -191,7 +191,7 @@ local function get_integrations()
 			final_integrations = vim.tbl_deep_extend(
 				"force",
 				final_integrations,
-				require("catppuccin.core.integrations." .. integration).get(color_palette)
+				require("lychee.core.integrations." .. integration).get(color_palette)
 			)
 		end
 	end
@@ -199,7 +199,7 @@ local function get_integrations()
 	final_integrations = vim.tbl_deep_extend(
 		"force",
 		final_integrations,
-		require("catppuccin.core.remaps").get_hig_remaps() or {}
+		require("lychee.core.remaps").get_hig_remaps() or {}
 	)
 	return final_integrations
 end
@@ -209,7 +209,7 @@ local function get_terminal()
 end
 
 function M.apply()
-	_G.cnf = require("catppuccin.config").options
+	_G.cnf = require("lychee.config").options
 
 	local theme = {}
 	theme.properties = get_properties() -- nvim settings

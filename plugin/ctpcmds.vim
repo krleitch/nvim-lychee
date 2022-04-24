@@ -1,3 +1,3 @@
-if exists('g:loaded_catppuccin') | finish | endif
+if exists('g:loaded_lychee') | finish | endif
 
-let g:loaded_catppuccin = 1
+let g:loaded_lychee = 1
