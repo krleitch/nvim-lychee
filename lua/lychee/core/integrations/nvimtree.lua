@@ -1,7 +1,7 @@
 local M = {}
 
 function M.get(cp)
-	local config = require("catppuccin.config").options
+	local config = require("lychee.config").options
 	local nvimtree = config.integrations.nvimtree
 
 	local root_dir_color = cp.pink
