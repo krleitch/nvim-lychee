@@ -1,7 +1,7 @@
 local M = {}
 
 function M.get(cp)
-	local transparent_background = require("catppuccin.config").options.transparent_background
+	local transparent_background = require("lychee.config").options.transparent_background
 	local bg_highlight = transparent_background and "NONE" or cp.black2
 	return {
 		rainbowcol1 = {bg = bg_highlight, fg = cp.red},

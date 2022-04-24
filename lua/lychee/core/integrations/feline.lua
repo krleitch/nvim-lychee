@@ -26,7 +26,7 @@ local assets = {
 	slim_dot = '•',
 }
 
-local clrs = require("catppuccin.core.color_palette")
+local clrs = require("lychee.core.color_palette")
 
 -- settings
 local sett = {
