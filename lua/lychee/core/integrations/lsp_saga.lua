@@ -2,10 +2,10 @@ local M = {}
 
 function M.get(cp)
 	return {
-		DiagnosticError = { fg = cp.red },
-		DiagnosticWarning = { fg = cp.yellow },
-		DiagnosticInformation = { fg = cp.blue },
-		DiagnosticHint = { fg = cp.hint },
+		DiagnosticError = { fg = cp.deep_pink },
+		DiagnosticWarning = { fg = cp.orange },
+		DiagnosticInformation = { fg = cp.key_lime },
+		DiagnosticHint = { fg = cp.light_grey },
 		LspFloatWinNormal = { bg = cp.black0 },
 		LspFloatWinBorder = { fg = cp.blue },
 		LspSagaBorderTitle = { fg = cp.flamingo },

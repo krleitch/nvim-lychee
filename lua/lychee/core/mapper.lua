@@ -39,7 +39,7 @@ local function get_base()
 		SignColumnSB = { bg = cp.black0, fg = cp.black4 }, -- column where |signs| are displayed
 		Substitute = { bg = cp.black4, fg = cp.pink }, -- |:substitute| replacement text highlighting
 		LineNr = { fg = cp.black4 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is secp.
-		CursorLineNr = { fg = cp.blue }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line. highlights the number in numberline.
+		CursorLineNr = { fg = cp.yellow }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line. highlights the number in numberline.
 		MatchParen = { fg = cp.peach, style = "bold" }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
 		ModeMsg = { fg = cp.white, style = "bold" }, -- 'showmode' message (e.g., "-- INSERT -- ")
 		MsgArea = { fg = cp.white }, -- Area for messages and cmdline
@@ -122,7 +122,7 @@ local function get_base()
 		-- ("Ignore", below, may be invisible...)
 		-- Ignore = { }, -- (preferred) left blank, hidden  |hl-Ignore|
 
-		Error = { fg = cp.red }, -- (preferred) any erroneous construct
+		Error = { fg = cp.deep_pink }, -- (preferred) any erroneous construct
 		Todo = { bg = cp.yellow, fg = cp.black2, style = "bold" }, -- (preferred) anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 		qfLineNr = { fg = cp.yellow },
 		qfFileName = { fg = cp.blue },

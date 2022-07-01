@@ -2,24 +2,24 @@ local cp = require("lychee.core.color_palette")
 local lychee = {}
 
 lychee.normal = {
-	a = { bg = cp.blue, fg = cp.black1, gui = "bold" },
-	b = { bg = cp.black3, fg = cp.blue },
+	a = { bg = cp.deep_pink, fg = cp.black1, gui = "bold" },
+	b = { bg = cp.black3, fg = cp.yellow },
 	c = { bg = cp.black1, fg = cp.white },
 }
 
 lychee.insert = {
-	a = { bg = cp.green, fg = cp.black2, gui = "bold" },
-	b = { bg = cp.black3, fg = cp.teal },
+	a = { bg = cp.key_lime, fg = cp.black2, gui = "bold" },
+	b = { bg = cp.black3, fg = cp.yellow },
 }
 
 lychee.command = {
-	a = { bg = cp.peach, fg = cp.black2, gui = "bold" },
-	b = { bg = cp.black3, fg = cp.peach },
+	a = { bg = cp.light_grey, fg = cp.black2, gui = "bold" },
+	b = { bg = cp.black3, fg = cp.yellow },
 }
 
 lychee.visual = {
-	a = { bg = cp.mauve, fg = cp.black2, gui = "bold" },
-	b = { bg = cp.black3, fg = cp.mauve },
+	a = { bg = cp.orange, fg = cp.black2, gui = "bold" },
+	b = { bg = cp.black3, fg = cp.yellow },
 }
 
 lychee.replace = {
@@ -28,8 +28,8 @@ lychee.replace = {
 }
 
 lychee.inactive = {
-	a = { bg = cp.black1, fg = cp.blue },
-	b = { bg = cp.black1, fg = cp.black4, gui = "bold" },
+	a = { bg = cp.black1, fg = cp.deep_pink },
+	b = { bg = cp.black1, fg = cp.black3, gui = "bold" },
 	c = { bg = cp.black1, fg = cp.gray0 },
 }
 

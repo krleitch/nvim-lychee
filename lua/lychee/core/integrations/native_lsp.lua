@@ -5,10 +5,10 @@ function M.get(cp)
 	local virtual_text = cnf.integrations.native_lsp.virtual_text
 	local underlines = cnf.integrations.native_lsp.underlines
 
-	local error = cp.red
-	local warning = cp.yellow
-	local info = cp.sky
-	local hint = cp.rosewater
+	local error = cp.deep_pink
+	local warning = cp.orange
+	local info = cp.key_lime
+	local hint = cp.light_grey
 
 	return {
 		-- These groups are for the native LSP cliencp. Some other LSP clients may
