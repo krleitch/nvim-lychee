@@ -21,6 +21,11 @@ local color_palette = {
 	black2 = "#0b0c0f", -- Black2
 	black1 = "#1A1826", -- Black1
 	black0 = "#161320", -- Black0
+
+  error = "#ff005f",
+  warning = "#e0af68",
+  info = "#7aa2f7",
+  hint = "#ffafaf"
 }
 
 return color_palette
