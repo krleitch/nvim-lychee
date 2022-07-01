@@ -38,8 +38,8 @@ local function get_base()
 		SignColumn = { bg = cnf.transparent_background and cp.none or cp.black2, fg = cp.black4 }, -- column where |signs| are displayed
 		SignColumnSB = { bg = cp.black0, fg = cp.black4 }, -- column where |signs| are displayed
 		Substitute = { bg = cp.black4, fg = cp.pink }, -- |:substitute| replacement text highlighting
-		LineNr = { fg = cp.black4 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is secp.
-		CursorLineNr = { fg = cp.green }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line. highlights the number in numberline.
+		LineNr = { fg = cp.black3 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is secp.
+		CursorLineNr = { fg = cp.blue }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line. highlights the number in numberline.
 		MatchParen = { fg = cp.peach, style = "bold" }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
 		ModeMsg = { fg = cp.white, style = "bold" }, -- 'showmode' message (e.g., "-- INSERT -- ")
 		MsgArea = { fg = cp.white }, -- Area for messages and cmdline

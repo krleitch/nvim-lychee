@@ -3,28 +3,28 @@ local lychee = {}
 
 lychee.normal = {
 	a = { bg = cp.blue, fg = cp.black1, gui = "bold" },
-	b = { bg = cp.black4, fg = cp.blue },
+	b = { bg = cp.black3, fg = cp.blue },
 	c = { bg = cp.black1, fg = cp.white },
 }
 
 lychee.insert = {
 	a = { bg = cp.green, fg = cp.black2, gui = "bold" },
-	b = { bg = cp.black4, fg = cp.teal },
+	b = { bg = cp.black3, fg = cp.teal },
 }
 
 lychee.command = {
 	a = { bg = cp.peach, fg = cp.black2, gui = "bold" },
-	b = { bg = cp.black4, fg = cp.peach },
+	b = { bg = cp.black3, fg = cp.peach },
 }
 
 lychee.visual = {
 	a = { bg = cp.mauve, fg = cp.black2, gui = "bold" },
-	b = { bg = cp.black4, fg = cp.mauve },
+	b = { bg = cp.black3, fg = cp.mauve },
 }
 
 lychee.replace = {
 	a = { bg = cp.red, fg = cp.black2, gui = "bold" },
-	b = { bg = cp.black4, fg = cp.red },
+	b = { bg = cp.black3, fg = cp.red },
 }
 
 lychee.inactive = {
