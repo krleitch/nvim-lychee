@@ -28,6 +28,7 @@ config.options = {
 				information = "underline",
 			},
 		},
+    alpha = true,
 		lsp_trouble = false,
 		cmp = true,
 		lsp_saga = false,
