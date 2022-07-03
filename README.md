@@ -1,7 +1,7 @@
 # nvim-lychee
 
--   A copy of https://github.com/catppuccin/nvim with my own colour scheme
--   In progress of making it more unique
+- Colour semantics inspired by https://github.com/catppuccin/nvim
+- In progress
 
 ## Demo
 
@@ -38,6 +38,7 @@ styles = {
 	variables = "italic",
 },
 integrations = {
+  alpha = true,
 	treesitter = true,
 	native_lsp = {
 		enabled = true,
