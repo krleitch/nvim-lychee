@@ -4,7 +4,7 @@ local lychee = {}
 lychee.normal = {
 	a = { bg = cp.deep_pink, fg = cp.black1, gui = "bold" },
 	b = { bg = cp.black3, fg = cp.yellow },
-	c = { bg = cp.black1, fg = cp.white },
+	c = { bg = cp.black1, fg = cp.lavender },
 }
 
 lychee.insert = {

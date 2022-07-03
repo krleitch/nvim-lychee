@@ -46,10 +46,10 @@ local function get_base()
 		MsgSeparator = {}, -- Separator for scrolled messages, `msgsep` flag of 'display'
 		MoreMsg = { fg = cp.blue }, -- |more-prompt|
 		NonText = { fg = cp.gray0 }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
-		Normal = { fg = cp.white, bg = cnf.transparent_background and cp.none or cp.black2 }, -- normal text
-		NormalNC = { fg = cp.white, bg = cnf.transparent_background and cp.none or cp.black2 }, -- normal text in non-current windows
-		NormalSB = { fg = cp.white, bg = cp.black0 }, -- normal text in non-current windows
-		NormalFloat = { fg = cp.white, bg = cp.black1 }, -- Normal text in floating windows.
+		Normal = { fg = cp.lavender, bg = cnf.transparent_background and cp.none or cp.black2 }, -- normal text
+		NormalNC = { fg = cp.lavender, bg = cnf.transparent_background and cp.none or cp.black2 }, -- normal text in non-current windows
+		NormalSB = { fg = cp.lavender, bg = cp.black0 }, -- normal text in non-current windows
+		NormalFloat = { fg = cp.lavender, bg = cp.black1 }, -- Normal text in floating windows.
 		FloatBorder = { fg = cp.blue },
 		Pmenu = { bg = cp.black3, fg = cp.gray2 }, -- Popup menu: normal item.
 		PmenuSel = { fg = cp.white, bg = cp.black4, style = "bold" }, -- Popup menu: selected item.
