@@ -38,7 +38,6 @@ styles = {
 	variables = "italic",
 },
 integrations = {
-  alpha = true,
 	treesitter = true,
 	native_lsp = {
 		enabled = true,
@@ -55,6 +54,8 @@ integrations = {
 			information = "underline",
 		},
 	},
+  alpha = false,
+  leap = false,
 	lsp_trouble = false,
 	cmp = true,
 	lsp_saga = false,
