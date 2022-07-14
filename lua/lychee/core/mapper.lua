@@ -49,12 +49,12 @@ local function get_base()
 		Normal = { fg = cp.lavender, bg = cnf.transparent_background and cp.none or cp.black2 }, -- normal text
 		NormalNC = { fg = cp.lavender, bg = cnf.transparent_background and cp.none or cp.black2 }, -- normal text in non-current windows
 		NormalSB = { fg = cp.lavender, bg = cp.black0 }, -- normal text in non-current windows
-		NormalFloat = { fg = cp.lavender, bg = cp.black1 }, -- Normal text in floating windows.
+		NormalFloat = { fg = cp.lavender, bg = cnf.transparent_background and cp.none or cp.black1 }, -- Normal text in floating windows.
 		FloatBorder = { fg = cp.blue },
-		Pmenu = { bg = cp.black3, fg = cp.gray2 }, -- Popup menu: normal item.
-		PmenuSel = { fg = cp.white, bg = cp.black4, style = "bold" }, -- Popup menu: selected item.
-		PmenuSbar = { bg = cp.black4 }, -- Popup menu: scrollbar.
-		PmenuThumb = { bg = cp.gray0 }, -- Popup menu: Thumb of the scrollbar.
+		Pmenu = { bg = cnf.transparent_background and cp.none or cp.black1, fg = cp.gray2 }, -- Popup menu: normal item.
+		PmenuSel = { fg = cp.white, bg = cp.black3, style = "bold" }, -- Popup menu: selected item.
+		PmenuSbar = { bg = cp.black3 }, -- Popup menu: scrollbar.
+		PmenuThumb = { bg = cp.black4 }, -- Popup menu: Thumb of the scrollbar.
 		Question = { fg = cp.blue }, -- |hit-enter| prompt and yes/no questions
 		QuickFixLine = { bg = cp.black4, style = "bold" }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
 		Search = { bg = cp.black4, fg = cp.pink, style = "bold" }, -- Last search pattern highlighting (see 'hlsearch').  Also used for similar items that need to stand oucp.
