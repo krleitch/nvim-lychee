@@ -10,18 +10,18 @@ function M.get(cp)
 		root_dir_color = cp.blue
 	end
 
-
 	return {
 		NvimTreeFolderName = { fg = cp.blue },
 		NvimTreeFolderIcon = { fg = cp.blue },
-		NvimTreeNormal = { fg = cp.white, bg = nvimtree.transparent_panel and "NONE" or cp.black1 },
+		NvimTreeNormal = { fg = cp.white, bg = nvimtree.transparent_panel and "NONE" or cp.black2 },
 		NvimTreeOpenedFolderName = { fg = cp.blue },
 		NvimTreeEmptyFolderName = { fg = cp.blue },
 		NvimTreeIndentMarker = { fg = cp.gray0 },
 		NvimTreeVertSplit = { fg = cp.black2, bg = cp.black2 },
 		NvimTreeRootFolder = { fg = root_dir_color, style = "bold" },
 		NvimTreeSymlink = { fg = cp.pink },
-		NvimTreeStatuslineNc = { fg = cp.black1, bg = cp.black1 },
+		NvimTreeStatusline = { fg = cp.black2, bg = cp.black2 },
+		NvimTreeStatuslineNC = { fg = cp.black4, bg = cp.black2 },
 		NvimTreeGitDirty = { fg = cp.yellow },
 		NvimTreeGitNew = { fg = cp.blue },
 		NvimTreeGitDeleted = { fg = cp.red },
