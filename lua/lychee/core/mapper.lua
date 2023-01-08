@@ -72,7 +72,7 @@ local function get_base()
 		Title = { fg = cp.blue, style = "bold" }, -- titles for output from ":set all", ":autocmd" etcp.
 		Visual = { bg = cp.black4, style = "bold" }, -- Visual mode selection
 		VisualNOS = { bg = cp.black4, style = "bold" }, -- Visual mode selection when vim is "Not Owning the Selection".
-		WarningMsg = { fg = cp.yellow }, -- warning messages
+		WarningMsg = { fg = cp.sky }, -- warning messages
 		Whitespace = { fg = cp.black4 }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
 		WildMenu = { bg = cp.gray0 }, -- current match in 'wildmenu' completion
 		-- These groups are not listed as default vim groups,
